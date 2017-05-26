@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<!--
+	Copyright (C) 2017 Alpha Griffin
+	@%@~LICENSE~@%@
+-->
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[alphagriffin-mupen64plus]]></name>
+    <description lang="en"><![CDATA[Alpha Griffin overlay forking Mupen64Plus components adding artifical intelligence.]]></description>
+    <homepage>http://alphagriffin.com</homepage>
+    <owner type="organization">
+      <email>lannocc@alphagriffin.com</email>
+      <name><![CDATA[Alpha Griffin]]></name>
+    </owner>
+    <source type="git">git://github.com/AlphaGriffin/mupen64plus-ai-gentoo.git</source>
+    <feed>http://github.com/AlphaGriffin/mupen64plus-ai-gentoo/commits/master.atom</feed>
+  </repo>
+</repositories>
+
