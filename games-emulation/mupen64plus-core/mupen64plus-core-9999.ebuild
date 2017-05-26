@@ -100,7 +100,7 @@ src_compile() {
 src_install() {
 	emake "${MAKEARGS[@]}" DESTDIR="${D}" install
 	einstalldocs
-	dodoc -r doc/{emuwiki-api-doc,new_dynarec.txt}
+	dodoc -r doc/{emuwiki-api-doc,new_dynarec.mediawiki}
 
 	# replace bundled font with a symlink
 	# TODO: fix the code to not rely on it
